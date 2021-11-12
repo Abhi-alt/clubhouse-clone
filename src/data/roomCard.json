@@ -1,0 +1,59 @@
+[{
+    "id": 1,
+    "title": "GOOD TIME",
+    "sub_title": "Calvin Harris x Email Nava on Good Time Show",
+    "members":[
+        {
+            "first_name": "Sriram",
+            "last_name": "Krishnan"
+        },
+        {
+            "first_name": "Aarthi",
+            "last_name": "Ramamurthy"
+        },
+        {
+            "first_name": "Paul",
+            "last_name": "Davison"
+        }
+    ]
+ },
+ {
+     "id": 2,
+     "title":"GOOD TIME",
+     "sub_title":"Calvin Harris x Email Nava on Good Time Show",
+     "members":[
+        {
+            "first_name": "Vinod",
+            "last_name": "Wat"
+        },
+        {
+            "first_name": "Biswa",
+            "last_name": "Sapt"
+        },
+        {
+            "first_name": "Xavier",
+            "last_name": "Naul"
+        }
+    ]
+ },
+ {
+    "id": 3,
+    "title":"GOOD TIME",
+    "sub_title":"Calvin Harris x Email Nava on Good Time Show",
+    "members":[
+       {
+           "first_name": "Shiva",
+           "last_name": "Rama"
+       },
+       {
+           "first_name": "Sandy",
+           "last_name": "Mark"
+       },
+       {
+           "first_name": "Mitchell",
+           "last_name": "John"
+       }
+   ]
+}
+
+]

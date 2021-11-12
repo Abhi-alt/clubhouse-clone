@@ -4,7 +4,7 @@ import data from '../data/dailyCard.json';
 
 export default function DailyInfoCard(){
     return(
-        <div className={style.dailyInfoCard}>
+        <div className={style.dailyCard}>
             {data.map((item) => (
                 <div>
                     <span className="">{item.time}</span>
