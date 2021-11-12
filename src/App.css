@@ -33,7 +33,27 @@ a {
   border-radius: 10px;
   justify-content: center;
 }
+.primaryBtn{
+  background-color: var(--btnBgColor);
+  color: #ffff;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 2px 8px;
+  border-radius: 10px;
+  justify-content: center;
+}
 .nextArrow{
   height: 70%;
   width: 50%;
+}
+
+.app_layout{
+  background-color: #f2f0e4;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
 }

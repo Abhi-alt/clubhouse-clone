@@ -1,0 +1,19 @@
+import React from 'react';
+import style from '../style/dailyInfoCard.module.css';
+import data from '../data/dailyCard.json';
+
+export default function DailyInfoCard(){
+    return(
+        <div className={style.dailyInfoCard}>
+            {data.map((item) => (
+                <div>
+                    <span className="">{item.time}</span>
+                    <div>
+                        <span className="">{item.title}</span>
+                        <p>{item.description}</p>
+                    </div>
+                </div>
+            ))}
+        </div>
+    )
+}
