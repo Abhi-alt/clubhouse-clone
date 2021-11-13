@@ -23,6 +23,7 @@
     right: 0;
     top: 0;
     background-image: linear-gradient(transparent 20%, #f2f0e4 80%);
+    bottom: 0;
 }
 .home_container + .action_btn > button:first-child{
     border-radius: 2em;
