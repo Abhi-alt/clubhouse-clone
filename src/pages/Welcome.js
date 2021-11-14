@@ -12,7 +12,7 @@ function Welcome(){
                 <p>Abhishek, Biswa & the Clubhouse team</p>
             </div>
             <div className={style.actionBtn}>
-                <Link exact to="/get_username" className="primaryBtn d-flex align-items-center mb-3">Get Your Username {" "}</Link>
+                <Link exact to="/invite" className="primaryBtn d-flex align-items-center mb-3">Get Your Username {" "}</Link>
                 <Link to="/invite">Have an invite? Sign In</Link>
             </div>
         </div>
