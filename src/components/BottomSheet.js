@@ -18,11 +18,11 @@ export default function BottomSheet(props){
             props.setSheetVisible(!props.sheetVisible);
             props.setItemsVisible(true);
         }}
-        fullscreen={props.sheetTitle == "room detail" ? true: false}
+        fullscreen={props.sheetTitle === "room detail" ? true: false}
         >
             <div className={style.BottomSheetContainer} style={{backgroundColor: props.sheetTitle  == "profile"? "transparent" : ""}}>
                 {
-                    props.sheetTitle == "new room" ? (
+                    props.sheetTitle === "new room" ? (
                         <NewRoom
                             cardDetail = {props.cardDetail}
                             setSheetVisible = {(item) => {
@@ -30,7 +30,7 @@ export default function BottomSheet(props){
                                 props.setItemsVisible(true);
                             }}
                         />
-                    ) : props.sheetTitle == "start room" ? (
+                    ) : props.sheetTitle === "start room" ? (
                         <StartRoom 
                             setSheetCreateRoom = {props.setSheetCreateRoom}
                             setSheetVisible = {(item) => {

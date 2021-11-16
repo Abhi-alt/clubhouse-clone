@@ -13,23 +13,23 @@ import Profile from './pages/Profile';
 function App() {
   return (
     // <>
-      <BrowserRouter>
-        <PlanLayout>
-          <Routes>
-            <Route exact path="/" element={<Welcome />}/>
-            <Route exact path="/invite" element={<PhoneConfirmation />}/>
-            <Route exact path="/code_confirm" element={<CodeConfirm />}/>
-            <Route exact path="/allow_notification" element={<AllowNotification/>} />
-          </Routes>
-        </PlanLayout>
-        <AppLayout>
-          <Routes>
-            <Route path="/home" element={<Home />} />
-            <Route path="/explore" element={<Explore />} />
-            <Route path="/profile" element={<Profile />} />
-          </Routes>
-        </AppLayout>
-      </BrowserRouter>
+    <BrowserRouter>
+    <PlanLayout>
+      <Routes>
+        <Route exact path="/" element={<Welcome />}/>
+        <Route exact path="/invite" element={<PhoneConfirmation />}/>
+        <Route exact path="/code_confirm" element={<CodeConfirm />}/>
+        <Route exact path="/allow_notification" element={<AllowNotification/>} />
+      </Routes>
+    </PlanLayout>
+    <AppLayout>
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/explore" element={<Explore />} />
+        <Route path="/profile" element={<Profile />} />
+      </Routes>
+    </AppLayout>
+  </BrowserRouter>
   );
 }
 

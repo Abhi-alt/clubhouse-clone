@@ -11,19 +11,19 @@ export default function StartRoom(props){
                 <button className={style.addTopicBtn}>+ Add a topic</button>
             </div>
             <div className={style.selectRoom}>
-                <button className={room == "open" ? style.active : ""} onClick={() => setRoom("open")}>
+                <button className={room === "open" ? style.active : ""} onClick={() => setRoom("open")}>
                     <div>
                         <FcGlobe />
                     </div>
                     Open
                 </button>
-                <button className={room == "social" ? style.active : ""} onClick={() => setRoom("social")}>
+                <button className={room === "social" ? style.active : ""} onClick={() => setRoom("social")}>
                     <div>
                         <FcGlobe />
                     </div>
                     Social
                 </button>
-                <button className={room == "closed" ? style.active : ""} onClick={() => setRoom("closed")}>
+                <button className={room === "closed" ? style.active : ""} onClick={() => setRoom("closed")}>
                     <div>
                         <FcGlobe />
                     </div>
@@ -33,9 +33,9 @@ export default function StartRoom(props){
             <p>
                 Start a room{" "}
                 <span>
-                    { room == "closed"
+                    { room === "closed"
                       ? "for people I choose"
-                      : room == "social"
+                      : room === "social"
                       ? "with people I follow"
                       : " open to everyone"
                     }

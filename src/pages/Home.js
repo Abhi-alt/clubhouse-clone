@@ -49,7 +49,7 @@ export default function Home(){
                 sheetTitle="start room"
                 setSheetVisible = {(item) => setSheetVisible(item)}
                 sheetVisible = {sheetVisible}
-                cardDetail = {data.find((item) => item.id == cardId)}
+                cardDetail = {data.find((item) => item.id === cardId)}
                 setItemsVisible = {(item) => setItemsVisible(item)}
                 setSheetCreateRoom = {(item) => {
                     setLoaderVisibility(true);
