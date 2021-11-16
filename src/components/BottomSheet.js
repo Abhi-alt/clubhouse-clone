@@ -20,7 +20,7 @@ export default function BottomSheet(props){
         }}
         fullscreen={props.sheetTitle === "room detail" ? true: false}
         >
-            <div className={style.BottomSheetContainer} style={{backgroundColor: props.sheetTitle  == "profile"? "transparent" : ""}}>
+            <div className={style.BottomSheetContainer} style={{backgroundColor: props.sheetTitle  === "profile"? "transparent" : ""}}>
                 {
                     props.sheetTitle === "new room" ? (
                         <NewRoom
